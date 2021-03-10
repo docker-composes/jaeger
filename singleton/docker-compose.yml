@@ -14,7 +14,7 @@ services:
       - 14268:14268
       - 9411:9411
     networks:
-      - docker-net
+      - local-net
 networks:
-  docker-net:
+  local-net:
     external: true
